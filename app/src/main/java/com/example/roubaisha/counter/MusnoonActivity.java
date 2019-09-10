@@ -16,15 +16,15 @@ public class MusnoonActivity extends AppCompatActivity
 {
     // Array of strings for ListView Title
     String[] listviewTitle = new String[]{
-            "Dua before meals", "Dua after eating ", "Dua before sleeping", "Dua when wake up from sleep",
-            "Dua when enter the home ", "Dua when leave the home", "Dua when enter the mosque", "Dua when Leave the mosque",
-            "Dua for traveling & journey","Dua when entering the market (bazaar)","Dua when meeting another muslim","Dua upon Sneezing",
-            "Dua when hearing someone sneeze","Dua when facing trouble or difficulties","Dua for relief from all hardships","Dua at the time of dressing",
-            "Dua when visiting the sick","Dua before wudhu (ablution)", "Dua while performing wudhu (ablution)", "Dua before entering toilet",
+            "Dua before meals", "Dua after meals ", "Dua before sleeping", "Dua when wake up from sleep",
+            "Dua when enter the home ", "Dua when leave the home", "Dua when enter the mosque", "Dua when leave the mosque",
+            "Dua for traveling ","Dua when entering the market","Dua when meeting another muslim","Dua upon sneezing",
+            "Dua when hearing someone sneeze","Dua when facing trouble ","Dua for relief from all hardships","Dua at the time of dressing",
+            "Dua when visiting the sick","Dua before wudhu ", "Dua while performing wudhu ", "Dua before entering toilet",
             "Dua after leaving toilet ", "Dua when you become angry ", "Dua at the time Of seeing a muslim smiling ","Dua when sighting the moon ",
             "Dua when you see someone in trouble","Dua after drinking milk","Dua when dining at someone's house", "Dua when you forget to say bismillah before meal","Dua after fajr & maghrib prayer",
-            "Dua when fearing the enemy","Dua wearing a new turban (amaamah) or a new sheet of cloth","Dua when entering the cemetery / graveyard ","Dua at the time of lowering a dead body into a grave ",
-            "Dua shab e qadr (laylat ul qadr) ","Dua when sighting the new moon ","Dua for bride & groom after marriage/nikah","Dua for sehri ",
+            "Dua when fearing the enemy","Dua wearing a new amaamah ","Dua when entering the graveyard ","Dua at the time of lowering a dead body into a grave ",
+            "Dua  for shab e qadr  ","Dua when sighting the new moon ","Dua for bride & groom after nikah","Dua for sehri ",
             "Dua for iftar","Dua when looking in the mirror","Dua for animal suffering through evil eye (nazar)",
             "Dua when drinking zam zam water",
 
@@ -75,7 +75,8 @@ public class MusnoonActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listview);
-
+        getSupportActionBar().setTitle("Masnoon Duain");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         List<HashMap<String, String>> aList = new ArrayList<HashMap<String, String>>();
 
         for (int i = 0; i < 41; i++) {
@@ -270,4 +271,6 @@ public class MusnoonActivity extends AppCompatActivity
 
             }
         });
-    }}
+
+    }
+}

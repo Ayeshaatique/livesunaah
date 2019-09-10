@@ -13,6 +13,7 @@ public class ListItemActivity5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_5);
         getSupportActionBar().setTitle("Dua when enter the home ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity5.this,R.raw.mse);
         play.setOnClickListener(new View.OnClickListener() {

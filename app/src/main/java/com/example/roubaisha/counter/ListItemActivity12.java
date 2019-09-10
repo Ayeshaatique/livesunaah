@@ -13,6 +13,7 @@ public class ListItemActivity12 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_12);
         getSupportActionBar().setTitle("Dua upon sneezing ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity12.this,R.raw.msl);
         play.setOnClickListener(new View.OnClickListener() {

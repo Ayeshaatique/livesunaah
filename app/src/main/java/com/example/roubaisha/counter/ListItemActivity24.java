@@ -13,6 +13,7 @@ public class ListItemActivity24 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_24);
         getSupportActionBar().setTitle("Dua when sighting the moon");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity24.this,R.raw.msx);
         play.setOnClickListener(new View.OnClickListener() {

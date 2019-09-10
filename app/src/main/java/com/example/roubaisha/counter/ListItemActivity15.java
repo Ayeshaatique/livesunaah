@@ -12,7 +12,8 @@ public class ListItemActivity15 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_15);
-        getSupportActionBar().setTitle("Dua for relief from all hardships .");
+        getSupportActionBar().setTitle("Dua for relief from all hardships ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity15.this,R.raw.mso);
         play.setOnClickListener(new View.OnClickListener() {

@@ -13,6 +13,7 @@ public class ListItemActivity16 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_16);
         getSupportActionBar().setTitle("Dua at the time of dressing.");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity16.this,R.raw.msp);
         play.setOnClickListener(new View.OnClickListener() {

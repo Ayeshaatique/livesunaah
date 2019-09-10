@@ -13,6 +13,7 @@ public class ListItemActivity41 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_41);
         getSupportActionBar().setTitle("Dua when drinking zam zam water ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity41.this,R.raw.mspp);
         play.setOnClickListener(new View.OnClickListener() {
@@ -28,4 +29,5 @@ public class ListItemActivity41 extends AppCompatActivity {
             }
         });
     }
+
 }

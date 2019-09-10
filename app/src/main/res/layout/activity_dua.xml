@@ -43,14 +43,14 @@
                                 android:layout_width="64dp"
                                 android:layout_height="64dp"
                                 android:background="@drawable/circle_icon"
-                                android:src="@drawable/ic_dua_hands"
+                                android:src="@drawable/book"
                                 android:padding="10dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
                                 android:layout_marginTop="10dp"
-                                android:text="Musnnon Dua"/>
+                                android:text="Masnoon Duain"/>
 
 
                         </LinearLayout>
@@ -71,16 +71,15 @@
                                 android:layout_width="64dp"
                                 android:layout_height="64dp"
                                 android:background="@drawable/circle_icon"
-                                android:src="@drawable/ic_dua_hands"
+                                android:src="@drawable/fajr"
                                 android:padding="10dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
                                 android:layout_marginTop="10dp"
-                                android:text="       Morning \n Rememberence"/>
+                                android:text="       Morning \n Remembrance"/>
 
-                                android:textColor="@android:color/darker_gray"/>
                         </LinearLayout>
                     </android.support.v7.widget.CardView>
                 </LinearLayout>
@@ -107,14 +106,14 @@
                                 android:layout_width="64dp"
                                 android:layout_height="64dp"
                                 android:background="@drawable/circle_icon"
-                                android:src="@drawable/ic_dua_hands"
+                                android:src="@drawable/isha"
                                 android:padding="10dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
                                 android:layout_marginTop="10dp"
-                                android:text="        Evening \n Rememberence"/>
+                                android:text="        Evening \n Remembrance"/>
 
                         </LinearLayout>
                     </android.support.v7.widget.CardView>
@@ -137,7 +136,7 @@
                                 android:layout_height="64dp"
                                 android:background="@drawable/circle_icon"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_dua_hands" />
+                                android:src="@drawable/pray" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -173,14 +172,14 @@
                                 android:layout_width="64dp"
                                 android:layout_height="64dp"
                                 android:background="@drawable/circle_icon"
-                                android:src="@drawable/ic_dua_hands"
+                                android:src="@drawable/moon"
                                 android:padding="10dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
                                 android:layout_marginTop="10dp"
-                                android:text="Before Slepping"/>
+                                android:text="Before Sleeping"/>
 
                         </LinearLayout>
                     </android.support.v7.widget.CardView>

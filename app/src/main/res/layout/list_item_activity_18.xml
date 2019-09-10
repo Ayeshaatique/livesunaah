@@ -47,11 +47,10 @@
         android:layout_marginBottom="301dp"
         android:text="اللہ عزوجل کے نام سے شروع جو بڑا مہربان اور نہایت رحم والا ہے۔"
         android:textSize="15dp" />
-
     <Button
         android:id="@+id/button_play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
@@ -59,5 +58,6 @@
         android:layout_marginRight="123dp"
         android:layout_marginBottom="174dp"
         android:background="@drawable/play"
-        android:text="" />
+        android:text=""
+        android:gravity="center"/>
 </RelativeLayout>

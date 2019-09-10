@@ -13,6 +13,7 @@ public class ListItemActivity8 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_8);
         getSupportActionBar().setTitle("Dua when leaving the mosque");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity8.this,R.raw.msh);
         play.setOnClickListener(new View.OnClickListener() {

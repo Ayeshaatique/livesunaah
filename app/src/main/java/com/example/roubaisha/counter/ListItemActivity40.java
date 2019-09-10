@@ -13,6 +13,7 @@ public class ListItemActivity40 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_40);
         getSupportActionBar().setTitle("Dua for animal suffering through evil eye (nazar) ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity40.this,R.raw.msoo);
         play.setOnClickListener(new View.OnClickListener() {

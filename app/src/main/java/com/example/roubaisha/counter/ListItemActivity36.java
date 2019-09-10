@@ -12,7 +12,8 @@ public class ListItemActivity36 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_36);
-        getSupportActionBar().setTitle("Dua for bride & groom after marriage/nikah");
+        getSupportActionBar().setTitle("Dua for bride & groom after nikah");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity36.this,R.raw.mskk);
         play.setOnClickListener(new View.OnClickListener() {

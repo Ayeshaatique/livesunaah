@@ -12,7 +12,8 @@ public class ListItemActivity31 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_31);
-        getSupportActionBar().setTitle("Dua wearing  new turban(amaamah) or new sheet of cloth ");
+        getSupportActionBar().setTitle("Dua wearing new amaamah ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity31.this,R.raw.msee);
         play.setOnClickListener(new View.OnClickListener() {

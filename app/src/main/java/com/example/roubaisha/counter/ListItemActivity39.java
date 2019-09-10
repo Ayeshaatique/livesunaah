@@ -13,6 +13,7 @@ public class ListItemActivity39 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_39);
         getSupportActionBar().setTitle("Dua when looking in the mirror");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity39.this,R.raw.msnn);
         play.setOnClickListener(new View.OnClickListener() {

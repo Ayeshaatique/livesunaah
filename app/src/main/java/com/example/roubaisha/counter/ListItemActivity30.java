@@ -13,6 +13,7 @@ public class ListItemActivity30 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_30);
         getSupportActionBar().setTitle("Dua when fearing the enemy");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity30.this,R.raw.msdd);
         play.setOnClickListener(new View.OnClickListener() {

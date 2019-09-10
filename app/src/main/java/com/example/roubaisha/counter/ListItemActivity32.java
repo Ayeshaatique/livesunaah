@@ -12,7 +12,8 @@ public class ListItemActivity32 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_32);
-        getSupportActionBar().setTitle("Dua when entering the cemetery / graveyard ");
+        getSupportActionBar().setTitle("Dua when entering the graveyard ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity32.this,R.raw.msff);
         play.setOnClickListener(new View.OnClickListener() {

@@ -13,6 +13,7 @@ public class ListItemActivity23 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_23);
         getSupportActionBar().setTitle("Dua at the time of seeing a muslim smiling");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity23.this,R.raw.msw);
         play.setOnClickListener(new View.OnClickListener() {

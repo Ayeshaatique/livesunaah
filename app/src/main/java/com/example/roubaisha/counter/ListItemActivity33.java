@@ -13,6 +13,7 @@ public class ListItemActivity33 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_33);
         getSupportActionBar().setTitle("Dua at the time of lowering a dead body into a grave");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity33.this,R.raw.msgg);
         play.setOnClickListener(new View.OnClickListener() {

@@ -12,7 +12,8 @@ public class ListItemActivity18 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_18);
-        getSupportActionBar().setTitle("Dua before wudhu (ablution) .");
+        getSupportActionBar().setTitle("Dua before wudhu.");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity18.this,R.raw.msr);
         play.setOnClickListener(new View.OnClickListener() {

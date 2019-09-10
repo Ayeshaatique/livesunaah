@@ -13,6 +13,7 @@ public class ListItemActivity29 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_29);
         getSupportActionBar().setTitle("Dua after fajr & maghrib prayer");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity29.this,R.raw.mscc);
         play.setOnClickListener(new View.OnClickListener() {

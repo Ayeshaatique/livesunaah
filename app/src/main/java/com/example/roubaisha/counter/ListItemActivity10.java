@@ -12,7 +12,8 @@ public class ListItemActivity10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_10);
-        getSupportActionBar().setTitle("Dua when entering the market (bazaar)");
+        getSupportActionBar().setTitle("Dua when entering the market");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity10.this,R.raw.msj);
         play.setOnClickListener(new View.OnClickListener() {

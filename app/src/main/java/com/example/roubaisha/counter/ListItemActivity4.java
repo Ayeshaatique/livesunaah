@@ -13,6 +13,7 @@ public class ListItemActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_4);
         getSupportActionBar().setTitle("Dua when wake up from sleep  ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
         final MediaPlayer mP = MediaPlayer.create(ListItemActivity4.this,R.raw.msd);
         play.setOnClickListener(new View.OnClickListener() {
