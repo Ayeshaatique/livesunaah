@@ -31,26 +31,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="I' ask Allah for forgivenes.(three times)" />
-            <RelativeLayout
-                android:id="@+id/relativeLayout1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button1"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -77,26 +64,13 @@
                 android:layout_marginTop="10dp"
                 android:text="O' Allah , You are As-Salam and from You is all peace, blessed are You, O Prossesor of majesty and honour.'AS-Salam: The one who is free from all defects and deficiencies." />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button12"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -122,26 +96,13 @@
                 android:layout_marginTop="10dp"
                 android:text="' None has the right to be worshipped expcept Allah , alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent.O Allah, none can prevent what You have willed to bestow and none can bestow what You have willed to prevent, as from You is all wealth and majesty." />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button13"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -158,7 +119,7 @@
                 android:layout_height="200dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/afd"
-               android:layout_gravity="center"/>
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -166,26 +127,13 @@
                 android:layout_marginTop="10dp"
                 android:text="'None has the right to be worshipped except Allah, alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent. There is no might nor power except with Allah, none has the right to be worshipped except Allah and we worship none expect Him. For Him is all favour, grace, and glorious praise. None has the right to be worshipped expect Allah and we are sincere in faith and devotion to Him although the disbelievers detest it.   " />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout4"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button14"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -212,27 +160,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="How  perfect Allah is, all praise is for Allah, and Allah is the greatest.(thirty-three times). " />
-
-            <RelativeLayout
-                android:id="@+id/relativeLayout5"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button5"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button15"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -261,26 +195,14 @@
                 android:text="None has the right to be worshipped expect Allah, alone, without patner, to Him belongs all soverignty and praise and He is over all things omnipotent .  " />
 
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout6"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
 
-                <Button
-                    android:id="@+id/button6"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button16"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -308,26 +230,13 @@
                 android:layout_marginTop="10dp"
                 android:text="After morning and evening prayers, 3 times. After the other prayer 1 time. " />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout7"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button17"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -355,26 +264,13 @@
                 android:text=" {Allah la ilah illa huwa alhayyu alqayyoomu la ta/khuthuhu sinatun wala nawm...}[Al-Baqarah:255]." />
 
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout8"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button8"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button18"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -402,26 +298,13 @@
                 android:layout_marginTop="10dp"
                 android:text="None has the to be worshipped except Allah, alone without partner, to Him belongs all sovereignty and praise, He gives life and causes death and He is over all things omnipotent .(ten times after maghrib and fajr prayers" />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout9"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button19"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -448,27 +331,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="  O' Allah, I ask You for knowledge which is benificial and sustenance which is good , and deeds which are accepetable.(To be said after giving salam for the fajar prayer)" />
-
-            <RelativeLayout
-                android:id="@+id/relativeLayout10"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button10"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button20"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/stop"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

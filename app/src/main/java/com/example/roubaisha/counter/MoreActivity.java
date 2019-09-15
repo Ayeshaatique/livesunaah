@@ -31,7 +31,7 @@ public class MoreActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         calendarbtn=(CardView)findViewById(R.id.calendarbtn);
         calendarbtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -75,7 +75,7 @@ public class MusnoonActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listview);
-        getSupportActionBar().setTitle("Masnoon Duain");
+        getSupportActionBar().setTitle("Masnoon Duas");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         List<HashMap<String, String>> aList = new ArrayList<HashMap<String, String>>();
 

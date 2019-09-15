@@ -33,26 +33,13 @@
                 android:layout_marginTop="10dp"
                 android:text="In your name my Lord , I lie down and in Your name I rise, so if You should take my soul then have mercy upon it, and if You should return my soul then project it in the manner You do so with Your righteous servants."/>
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button1"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,26 +65,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="O' Allah , verily You have created my soul and You shall take its life, to You belongs its life and death. if You should keep my soul alive then protect it, and if You should take its life then forgive it. O Allah, I ask You grant me good health."/>
-            <RelativeLayout
-                android:id="@+id/relativeLayout2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button12"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,26 +98,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="'O Allah, protect me from Your punishment on the day Your servants are resrrected(three times)"/>
-            <RelativeLayout
-                android:id="@+id/relativeLayout3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button13"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -170,26 +131,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="In Your name O Allah , I live and die"/>
-            <RelativeLayout
-                android:id="@+id/relativeLayout4"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button14"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -216,26 +164,15 @@
                 android:layout_marginTop="10dp"
                 android:text="All praise is for Allah, Who feed us and gave us drink, and Who is sufficient for us and has sheltered us, for how how many have none to suffice them or shelter them." />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout5"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
 
-                <Button
-                    android:id="@+id/button5"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
 
-                <Button
-                    android:id="@+id/button15"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -261,27 +198,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="'O Allah, Knower of the seen and the unseen, Creator of the heavens and earth, Lord and Sovereign of all things I bear witness that none has the right to be eorshipped except You. I take refuge in You from the evil of my soul and from the evil and shrink of the devil, and from committing wrong aganist my soul or bringing such upon another Muslim.shirk: to associate others with Allah in those things which are specific to Him. This can occur in (1) belief, e.g . to believe that other than Allah has the power to benefit or harm ,(2) speech ,e.g. to swear by ohter than Allah and (3) action, e.g. to bow or prostrate to other than Allah."/>
-
-            <RelativeLayout
-                android:id="@+id/relativeLayout6"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button6"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button16"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -307,26 +230,13 @@
                 android:layout_marginTop="10dp"
                 android:text="'O Allah , I submit my soul unto You, and I entrust my affair unto You, and I turn my face towrads You, and I totally rely on You, in hope and fear of You. Verily there is no refuge nor safe haven from You except with You. I believe in Your Book which You have revealed and in Your Prophet whom You have sent. "/>
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout7"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/play"
-                    android:layout_alignParentLeft="true" />
-
-                <Button
-                    android:id="@+id/button17"
-                    android:layout_width="38dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/pause"
-                    android:layout_alignParentRight="true"/>
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/play"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
