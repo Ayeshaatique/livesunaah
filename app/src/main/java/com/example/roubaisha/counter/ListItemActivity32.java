@@ -8,14 +8,16 @@ import android.widget.Button;
 
 public class ListItemActivity32 extends AppCompatActivity {
     Button play;
+    MediaPlayer mP;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item_activity_32);
         getSupportActionBar().setTitle("Dua when entering the graveyard ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
-        final MediaPlayer mP = MediaPlayer.create(ListItemActivity32.this,R.raw.msff);
+       mP = MediaPlayer.create(ListItemActivity32.this,R.raw.msff);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,5 +30,12 @@ public class ListItemActivity32 extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void onBackPressed(){
+        super.onBackPressed();
+        //stopAndPlay();
+        mP.stop();
+        finish();
+
     }
 }

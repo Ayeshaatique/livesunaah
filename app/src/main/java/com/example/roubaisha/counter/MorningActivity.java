@@ -14,6 +14,7 @@ import java.io.IOException;
 public class MorningActivity extends AppCompatActivity
 {
     int flag = 0;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class MorningActivity extends AppCompatActivity
         setContentView(R.layout.activity_morning);
         getSupportActionBar().setTitle("Morning Remembrance");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        final MediaPlayer mediaPlayer = new MediaPlayer();
+         mediaPlayer = new MediaPlayer();
         final Button button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -413,6 +414,12 @@ public class MorningActivity extends AppCompatActivity
         }
         mediaPlayer.start();
     }
+    public void onBackPressed(){
+        super.onBackPressed();
+        //stopAndPlay();
+        mediaPlayer.stop();
+        finish();
 
+    }
 }
 

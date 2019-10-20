@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class ListItemActivity40 extends AppCompatActivity {
     Button play;
+    MediaPlayer mP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +16,7 @@ public class ListItemActivity40 extends AppCompatActivity {
         getSupportActionBar().setTitle("Dua for animal suffering through evil eye (nazar) ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
-        final MediaPlayer mP = MediaPlayer.create(ListItemActivity40.this,R.raw.msoo);
+    mP = MediaPlayer.create(ListItemActivity40.this,R.raw.msoo);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,5 +29,12 @@ public class ListItemActivity40 extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void onBackPressed(){
+        super.onBackPressed();
+        //stopAndPlay();
+        mP.stop();
+        finish();
+
     }
 }

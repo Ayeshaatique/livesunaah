@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class ListItemActivity26 extends AppCompatActivity {
     Button play;
+    MediaPlayer mP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +16,7 @@ public class ListItemActivity26 extends AppCompatActivity {
         getSupportActionBar().setTitle("Dua after drinking milk");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         play = (Button)findViewById(R.id.button_play);
-        final MediaPlayer mP = MediaPlayer.create(ListItemActivity26.this,R.raw.msz);
+         mP = MediaPlayer.create(ListItemActivity26.this,R.raw.msz);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,5 +29,12 @@ public class ListItemActivity26 extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void onBackPressed(){
+        super.onBackPressed();
+        //stopAndPlay();
+        mP.stop();
+        finish();
+
     }
 }
