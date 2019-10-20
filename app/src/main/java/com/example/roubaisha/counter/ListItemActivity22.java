@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class ListItemActivity22 extends AppCompatActivity {
     Button play;
+    MediaPlayer mP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,5 +29,12 @@ public class ListItemActivity22 extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void onBackPressed(){
+        super.onBackPressed();
+        //stopAndPlay();
+        mP.stop();
+        finish();
+
     }
 }

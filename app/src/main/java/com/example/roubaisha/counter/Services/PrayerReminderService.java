@@ -152,6 +152,7 @@ public class PrayerReminderService extends Service {
 
             }
         });
+
     }
 
     public void GeneratePrayerReminder(int PrayerId, String PrayerName, String PrayerTime) {
@@ -252,6 +253,7 @@ public class PrayerReminderService extends Service {
             NotificationManager notificationManager = getSystemService(NotificationManager.class);
             notificationManager.createNotificationChannel(channel);
         }
+
     }
 
     @Override
@@ -271,4 +273,5 @@ public class PrayerReminderService extends Service {
 //        AlarmManager alarmService = (AlarmManager) getApplicationContext().getSystemService(Context.ALARM_SERVICE);
 //        alarmService.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + 1000, restartServicePI);
     }
+
 }

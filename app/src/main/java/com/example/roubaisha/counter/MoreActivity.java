@@ -43,7 +43,7 @@ public class MoreActivity extends AppCompatActivity {
         prayergbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openPrayerGuidanceActivity();
+                openScrollableTabsActivity();
             }
         });
         tasbihbtn=(CardView)findViewById(R.id.tasbihbtn);
@@ -121,7 +121,7 @@ public class MoreActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
     }
-    public void openPrayerGuidanceActivity(){
+    public void openScrollableTabsActivity(){
         Intent intent = new Intent(this, PrayerGuidance.class);
         startActivity(intent);
     }
