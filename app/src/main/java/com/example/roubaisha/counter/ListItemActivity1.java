@@ -8,7 +8,6 @@ import android.widget.Button;
 
 public class ListItemActivity1 extends AppCompatActivity {
     Button play;
-
     MediaPlayer mP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
